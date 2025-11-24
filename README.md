@@ -112,6 +112,9 @@ You can earn bonus marks for:
 
 ---
 
+## 📩 Video link 🎥
+- https://drive.google.com/drive/folders/1aZuxzVd_6_xnJqt-UXdUnPunxVK1ueUK?usp=sharing
+
 ## 🙌 Good Luck!
 
 Take your time. Follow the walkthrough. Ask for help if you need it.
