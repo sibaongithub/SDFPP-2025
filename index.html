@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sibabalwe Nobandla - Resume</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #6B6B6B;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    h1, h2, h3, p, span, div { font-size: inherit; font-weight: inherit; line-height: inherit; }
+  </style>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-green': '#4A8B70',
+            'brand-light-green': '#E7F0EC',
+            'brand-soft-green': 'rgba(74, 139, 112, 0.13)',
+            'brand-orange': '#D76239',
+            'brand-muted': '#5C5C5C',
+            'brand-light-text': '#EBF9F2'
+          },
+          fontFamily: { poppins: ['Poppins', 'sans-serif'] },
+          borderRadius: { card: '29px', 'card-mobile': '12px', inner: '16px' }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="min-h-screen py-6 md:py-10">
+  <main class="w-full max-w-[1440px] mx-auto px-4 md:px-6">
+
+    <!-- Header: image ALWAYS beside text; long about on md+, short on mobile -->
+    <header class="flex flex-row flex-nowrap items-start gap-4 md:gap-8 mb-6 md:mb-8">
+      <div class="w-[110px] md:w-[300px] h-[110px] md:h-[300px] rounded-card-mobile md:rounded-[29px] bg-white overflow-hidden flex-shrink-0 shadow-sm">
+        <img
+          src="assets/WhatsApp Image 2025-11-20 at 18.00.13.jpeg"
+          alt="Sibabalwe Nobandla - Profile Photo"
+          class="w-full h-full object-cover"
+        />
+      </div>
+
+      <div class="flex-1 bg-white rounded-card-mobile md:rounded-[29px] p-4 md:p-8 shadow-sm w-full">
+        <div class="space-y-3 md:space-y-4">
+          <div>
+            <h1 class="text-xl md:text-[36px] font-semibold text-black leading-[1.04]">Sibabalwe Nobandla</h1>
+            <p class="mt-1 text-sm md:text-[24px] text-black leading-[1.04]">Multimedia Strategist · Emerging Frontend Developer</p>
+          </div>
+
+          <!-- short about on mobile -->
+          <p class="block md:hidden text-sm leading-[1.3] text-brand-muted">
+            I build user-centred web content — video, social and accessible assets that amplify youth-led research.
+          </p>
+
+          <!-- full about on desktop -->
+          <p class="hidden md:block text-base md:text-[22px] leading-[1.3] text-brand-muted">
+            I'm a multimedia storyteller and emerging front-end developer who builds clear, user-centred digital experiences. I combine visual storytelling, accessible design, and hands-on HTML/CSS + JavaScript to translate research and youth engagement into compelling web content. I've led multimedia work for Youth Capital (video interviews, social content and research visuals) and co-authored policy pieces that connect lived youth experience to public debate.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Proficiency & Skills Row -->
+    <section class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-6 md:mb-8">
+      <div class="md:col-span-5 bg-white rounded-card-mobile md:rounded-[29px] p-6 md:p-8 shadow-sm">
+        <h2 class="text-xl md:text-[34px] font-medium text-black mb-6 leading-[1.5]">Proficiency</h2>
+
+        <div class="flex justify-between text-xs md:text-[24px] text-brand-muted mb-6 md:mb-8 font-medium leading-[1.5]">
+          <span>Beginner</span>
+          <span>Intermediate</span>
+          <span>Advance*</span>
+        </div>
+
+        <div class="space-y-4 md:space-y-6">
+          <div class="flex justify-between items-center">
+            <span class="text-sm md:text-[24px] font-medium text-black leading-[1.04]">JavaScript</span>
+            <div class="w-6 md:w-[29px] h-6 md:h-[26px] rounded-md md:rounded-[7px] bg-brand-green"></div>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <span class="text-sm md:text-[24px] font-medium text-black leading-[1.04]">React</span>
+            <div class="w-6 md:w-[29px] h-6 md:h-[26px] rounded-md md:rounded-[7px] bg-brand-green"></div>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <span class="text-sm md:text-[24px] font-medium text-black leading-[1.04]">Node.js</span>
+            <div class="w-6 md:w-[29px] h-6 md:h-[26px] rounded-md md:rounded-[7px] bg-brand-green"></div>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <span class="text-sm md:text-[24px] font-medium text-black leading-[1.04]">HTML + CSS</span>
+            <div class="w-32 md:w-[265px] h-6 md:h-[26px] rounded-md md:rounded-[7px] bg-brand-green"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="md:col-span-7 bg-white rounded-card-mobile md:rounded-[29px] p-6 md:p-7 shadow-sm">
+        <h2 class="text-xl md:text-[34px] font-medium text-black mb-6 leading-[1.5]">Skills</h2>
+
+        <div class="flex flex-wrap gap-3 md:gap-[19px]">
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">software development</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">agile</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">ui design</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">problem solving</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">git and version control</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">web development</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">team collaboration</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">functional programming</span>
+          <span class="px-4 md:px-[24px] py-2 md:py-[9.7px] rounded-full bg-brand-soft-green text-sm md:text-[24px] text-black capitalize leading-[1.5]">RESTful APIs</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-6 md:mb-8">
+      <div class="bg-white rounded-card-mobile md:rounded-[29px] p-6 md:p-8 shadow-sm">
+        <h2 class="text-2xl md:text-[34px] font-medium text-black text-center mb-6 md:mb-8 leading-[1.5]">Projects</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6">
+          <!-- Project cards (unchanged) -->
+          <article class="rounded-inner md:rounded-[20px] p-4 md:p-6 bg-brand-green text-white">
+            <div class="flex justify-between items-start mb-3 md:mb-4">
+              <div>
+                <div class="text-xs md:text-[24px] font-medium leading-[1.5]">2025</div>
+                <h3 class="mt-2 md:mt-3 text-base md:text-[24px] font-bold leading-[1.5]">Portfolio Website</h3>
+              </div>
+              <div class="text-lg md:text-[24px]">♥</div>
+            </div>
+            <div class="space-y-2 md:space-y-3 text-xs md:text-[18px] leading-[1.5]">
+              <p class="text-brand-light-text"><strong class="font-bold">Brief:</strong> Developed a personal portfolio website to showcase projects and skills.</p>
+              <p><strong class="font-bold">Technologies:</strong> React, JavaScript, HTML, CSS</p>
+              <p><strong class="font-bold">Responsibilities:</strong> Designed and implemented the website, ensured responsiveness and accessibility.</p>
+            </div>
+          </article>
+          <!-- ...other projects -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Tools -->
+    <section class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-6 md:mb-8">
+      <div class="md:col-span-9 bg-white rounded-card-mobile md:rounded-[29px] p-6 md:p-8 shadow-sm">
+        <h2 class="text-2xl md:text-[34px] font-medium text-black mb-6 leading-[1.5]">Education</h2>
+
+        <div class="space-y-4 md:space-y-6">
+          <!-- Education items unchanged -->
+        </div>
+      </div>
+
+      <!-- Right panel: umbrella box -->
+      <aside class="md:col-span-3">
+        <div class="bg-white rounded-card-mobile md:rounded-[29px] p-3 md:p-4 shadow-sm">
+          <h3 class="text-xl md:text-[28px] font-medium text-black mb-3 md:mb-4 text-center">Tools</h3>
+
+          <div class="grid grid-cols-3 md:grid-cols-1 gap-3 md:gap-4">
+            <!-- Languages -->
+            <div class="bg-brand-light-green rounded-lg p-3 md:p-4">
+              <div class="flex justify-center">
+                <span class="bg-black text-white px-3 py-1 rounded-full text-xs md:text-[12px] font-medium leading-[1.42]">languages</span>
+              </div>
+              <div class="grid grid-cols-2 gap-3 md:gap-4 mt-3 justify-items-center">
+                <div class="w-8 h-8 md:w-[41px] md:h-[41px]"><img src="assets/css-logo.svg" alt="CSS" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-8 h-8 md:w-[41px] md:h-[41px]"><img src="assets/html-logo.svg" alt="HTML" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-8 h-8 md:w-[41px] md:h-[41px]"><img src="assets/react-logo.svg" alt="React" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-8 h-8 md:w-[41px] md:h-[41px]"><img src="assets/js-logo.svg" alt="JavaScript" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-8 h-8 md:w-[41px] md:h-[41px]"><img src="assets/tailwind-logo.svg" alt="Tailwind" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-8 h-8 md:w-[41px] md:h-[41px]"><img src="assets/node-logo.svg" alt="Node.js" class="w-full h-full object-contain" loading="lazy" /></div>
+              </div>
+            </div>
+
+            <!-- Design -->
+            <div class="bg-brand-light-green rounded-lg p-3 md:p-4">
+              <div class="flex justify-center">
+                <span class="bg-black text-white px-3 py-1 rounded-full text-xs md:text-[12px] font-medium leading-[1.42]">design</span>
+              </div>
+              <div class="grid grid-cols-2 gap-3 md:gap-4 mt-3 justify-items-center">
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/logoCreativeCloud.svg" alt="Creative Cloud" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/logoFigma.svg" alt="Figma" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/logoMicrosoft.svg" alt="Microsoft" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/logoGoogle.svg" alt="Google" class="w-full h-full object-contain" loading="lazy" /></div>
+              </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="bg-brand-light-green rounded-lg p-3 md:p-4">
+              <div class="flex justify-center">
+                <span class="bg-black text-white px-3 py-1 rounded-full text-xs md:text-[12px] font-medium leading-[1.42]">tools</span>
+              </div>
+              <div class="grid grid-cols-2 gap-3 md:gap-4 mt-3 justify-items-center">
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/icons8-npm 1.svg" alt="npm" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/icons8-git 1.svg" alt="Git" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/icons8-github 1.svg" alt="GitHub" class="w-full h-full object-contain" loading="lazy" /></div>
+                <div class="w-6 h-6 md:w-[32px] md:h-[32px]"><img src="assets/icons8-visual-studio 1.svg" alt="Visual Studio" class="w-full h-full object-contain" loading="lazy" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Experience -->
+    <section class="mb-6 md:mb-8">
+      <div class="bg-white rounded-card-mobile md:rounded-[29px] p-6 md:p-8 shadow-sm">
+        <h2 class="text-2xl md:text-[34px] font-medium text-black mb-6 leading-[1.5]">Experience</h2>
+
+        <div class="space-y-4 md:space-y-6">
+          <!-- UPDATED: featured card is relative and badge is absolute so it stays top-right on all sizes -->
+          <article class="relative rounded-inner p-4 md:p-6 bg-brand-green text-white">
+            <!-- absolute badge: consistent top-right on mobile & desktop -->
+            <span class="absolute top-3 right-3 md:top-4 md:right-4 inline-block bg-brand-orange text-white px-3 py-1 rounded-full text-xs md:text-[14px] font-medium leading-[1.55]">Most Recent</span>
+
+            <div class="flex flex-col md:flex-row justify-between md:items-start gap-4">
+              <div class="flex-1 pr-2">
+                <div class="mb-3 md:mb-4">
+                  <div class="text-xs md:text-[24px] font-semibold leading-[1.5]">Oct. 2025 - Present</div>
+                  <h3 class="text-lg md:text-[28px] font-semibold mt-2 leading-[1.5]">Multimedia Strategist</h3>
+                  <div class="text-xs md:text-[24px] mt-1 leading-[1.5]">Youth Capital | Full-time</div>
+                </div>
+
+                <ul class="list-disc ml-5 space-y-1 text-xs md:text-[18px] leading-[1.5]">
+                  <li>Lead multimedia strategy and content production to amplify Youth Capital research and campaigns.</li>
+                  <li>Coordinate photoshoots, produce video/audio assets, and prepare developer-ready files for web.</li>
+                  <li>Co-author public-facing communications that translate research into accessible narratives.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- other experience items (unchanged) -->
+          <article class="rounded-inner p-4 md:p-6 bg-brand-light-green text-black">
+            <div class="mb-3 md:mb-4">
+              <div class="text-xs md:text-[24px] font-semibold leading-[1.5]">Feb. 2024 - Sept. 2025</div>
+              <h3 class="text-lg md:text-[28px] font-semibold mt-2 leading-[1.5]">Multimedia Content Creator</h3>
+              <div class="text-xs md:text-[24px] mt-1 leading-[1.5]">Youth Capital | Full-time</div>
+            </div>
+            <ul class="list-disc ml-5 space-y-1 text-xs md:text-[18px] leading-[1.5]">
+              <li>Produced end-to-end multimedia content: filming, editing, captions and social-ready formats.</li>
+              <li>Designed visuals and thumbnails, built embed-friendly media for site and social channels.</li>
+              <li>Supported facilitation materials and campaign assets to increase youth participation.</li>
+            </ul>
+          </article>
+
+          <article class="rounded-inner p-4 md:p-6 bg-brand-light-green text-black">
+            <div class="mb-3 md:mb-4">
+              <div class="text-xs md:text-[24px] font-semibold leading-[1.5]">Jan. 2024 - Jan. 2024</div>
+              <h3 class="text-lg md:text-[28px] font-semibold mt-2 leading-[1.5]">Social Media Manager</h3>
+              <div class="text-xs md:text-[24px] mt-1 leading-[1.5]">African Climate Alliance | Part-time</div>
+            </div>
+            <ul class="list-disc ml-5 space-y-1 text-xs md:text-[18px] leading-[1.5]">
+              <li>Managed social channels: content calendar, scheduling and engagement tracking.</li>
+              <li>Built campaigns to mobilise and inform young climate advocates.</li>
+              <li>Analysed engagement metrics to refine messaging and improve reach.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer: Contact -->
+    <footer>
+      <div class="bg-brand-orange text-white rounded-card-mobile md:rounded-[29px] p-6 md:p-8 shadow-sm">
+        <div class="max-w-[1264px] mx-auto">
+          <h3 class="text-lg md:text-[28px] font-semibold mb-4 leading-[1.5]">Let's chat! I'm ready to work on exciting projects.</h3>
+          <div class="flex flex-wrap gap-2 md:gap-6 text-sm md:text-[20px] items-center leading-[1.5]">
+            <a href="mailto:nobandlas07@gmail.com" class="hover:underline">nobandlas07@gmail.com</a>
+            <span class="hidden md:inline">|</span>
+            <a href="tel:0796545387" class="hover:underline">079 654 5387</a>
+            <span class="hidden md:inline">|</span>
+            <a href="https://www.linkedin.com/in/sibabalwe-nobandla" target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">LinkedIn</a>
+            <span class="hidden md:inline">|</span>
+            <a href="https://github.com/sibaongithub" target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>
